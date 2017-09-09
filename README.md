@@ -29,10 +29,18 @@ sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev lib
 
 git clone https://github.com/coppercoinet/CoppercoinMasterNode.git
 
+#now change directory 
+
+cd CopperCoinMasterNode
+
 #now extract the binary
 
 tar -xzvf coppercoin-daemon-linux.tar.gz
 chmod +x coppercoind sudo mv coppercoind /usr/bin/
+
+#now come back one directory
+
+cd ..
 
 #now edit the configuration file
 
