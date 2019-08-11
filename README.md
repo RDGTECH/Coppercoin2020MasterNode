@@ -1,7 +1,7 @@
 # CoppercoinMasterNode
-Compiled Coppercoin Masternode for Linux Ubuntu 14.04
+Compiled Coppercoin Masternode for Linux Ubuntu 18.04
 
-UBUNTU 14.04 IS NEEDED
+UBUNTU 18.04 IS NEEDED
 
 Port to be opened on your server
 TCP 22 YOUR_IP_ADDRESS/22 
@@ -27,7 +27,7 @@ sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev lib
 
 #now pull the source code from github, or upload it yourself:
 
-git clone https://github.com/coppercoinet/CoppercoinMasterNode.git
+git clone https://github.com/RDGTECH/CoppercoinMasterNodeV2.git
 
 #now change directory 
 
@@ -35,7 +35,7 @@ cd CopperCoinMasterNode
 
 #now extract the binary
 
-tar -xzvf coppercoin-daemon-linux.tar.gz
+tar -xzvf coppercoind.tar.gz
 chmod +x coppercoind sudo mv coppercoind /usr/bin/
 
 #now come back one directory
