@@ -1,4 +1,4 @@
-# CoppercoinMasterNodeV2
+# CoppercoinMasterNode2020
 Compiled Coppercoin Masternode for Linux Ubuntu 18.04
 
 UBUNTU 18.04 IS NEEDED
