@@ -27,7 +27,7 @@ sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev lib
 
 #now pull the source code from github, or upload it yourself:
 
-git clone https://github.com/RDGTECH/CoppercoinMasterNodeV2.git
+git clone https://github.com/RDGTECH/Coppercoin2020.git
 
 #now change directory 
 
